@@ -1,0 +1,23 @@
+goto:
+  robot_names: # the current robots in the UGV swarm
+    - callisto
+    - Europa
+    - IO  
+  img_scale: 0.5 # 1/2m to a pixel
+  base_frame: map
+  tolerance: 10 # how close to object do you want to be when inspecting it (in meters)
+  wp_proximity: 5 # meters
+  default_class: building
+  image_key:   #rgb
+    road: 0
+    vegitation: 1
+    building: 2
+    grass: 3
+    vehicle: 4
+    human: 5
+    gravel: 6
+    tree_trunk: 7
+    light_pole: 8
+
+
+    

@@ -1,0 +1,5 @@
+<launch>
+    <node name="atak_goto" pkg="atak_goto" type="jackal_search.py" output="screen" />
+    <node name="test_sub" pkg="atak_goto" type="pose_test.py" output="screen" />
+    <rosparam file="$(find atak_goto)/config/goto_params.yaml" />
+</launch> 
